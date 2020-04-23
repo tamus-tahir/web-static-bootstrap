@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Font-Acme';
+    src: url('Acme-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Font-Acme';
+    margin: 0;
+    padding: 0;
+    font-size: 110%;
+}
+
+.carousel-item img {
+    /* vh = view height */
+    height: 100vh;
+}
+
+.bg-dark-transparant {
+    background: rgba(0, 0, 0, .7);
+}
+
+.text-nav {
+    color: white !important;
+    font-size: 1.5em;
+}
+
+.text-nav:hover {
+    color: red !important;
+}
+
+.text-nav-active {
+    color: rgb(238, 255, 0) !important;
+}
+
+.text-sambutan {
+    line-height: 2em;
+}
+
+
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 60vh;
+    }
+}
